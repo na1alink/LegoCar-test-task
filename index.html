@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Changan auto</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__top">
+          <div class="header__logo logo">
+            <img src="./images/logo.svg" alt="logo" class="header__logo" />
+          </div>
+          <nav class="header__nav nav" aria-label="Основная">
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Автомобили в наличии</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Спецпредложения</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Продать авто</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Сервис</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__btn btn btn-reset">Заказать звонок</button>
+
+          <!-- бургер меню -->
+          <div class="hamburger-menu">
+            <input
+              type="checkbox"
+              id="burger-checkbox"
+              class="burger-checkbox"
+            />
+            <label for="burger-checkbox" class="burger"></label>
+
+            <ul class="burger__menu list-reset">
+              <a href="#" class="burger__link">Автомобили в наличии</a>
+              <a href="#" class="burger__link">Спецпредложения</a>
+              <a href="#" class="burger__link">Продать авто</a>
+              <a href="#" class="burger__link">Сервис</a>
+              <a href="#" class="burger__link">Контакты</a>
+            </ul>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="header__bottom-text header__location">
+            Олимпийский просп., 5, стр. 1, Москва
+          </div>
+          <div class="header__bottom-text header__route">Проложить маршрут</div>
+
+          <div class="header__bottom-text header__schedule">
+            9:00 - 21:00 (ежедневно)
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__conatiner">
+          <h2 class="hero__title">
+            Теперь услуги дилерского центра&nbsp;Вы можете можете получить
+            онлайн!
+          </h2>
+          <div class="hero__content">
+            <div class="hero__card card-1">
+              <h3 class="hero__card-title">
+                Диагностика автомобиля перед покупкой
+              </h3>
+              <p class="hero__card-descr">
+                Расскажем обо всех скрытых дефектах автомобиля с&nbsp;пробегом
+              </p>
+              <button class="hero__card-btn btn-reset">Записаться</button>
+            </div>
+            <div class="hero__card card-2">
+              <h3 class="hero__card-title">
+                Онлайн показ автомобиля по&nbsp;видеосвязи
+              </h3>
+              <p class="hero__card-descr">
+                Проведем онлайн-показ интересующего автомобиля в&nbsp;удобное
+                для Вас время
+              </p>
+              <button class="hero__card-btn btn-reset">Оставить заявку</button>
+              <div class="hero__card-img2">
+                <img src="./images/bg2.svg" alt="" class="hero__card-svg2" />
+              </div>
+            </div>
+            <div class="hero__card card-3">
+              <h3 class="hero__card-title">Онлайн бронирование</h3>
+              <p class="hero__card-descr">
+                Забронируйте понравившийся автомобиль без визита
+                в&nbsp;дилерский центр
+              </p>
+              <button class="hero__card-btn btn-reset">Забронировать</button>
+            </div>
+            <div class="hero__card card-4">
+              <h3 class="hero__card-title">
+                Онлайн оценка автомобиля с&nbsp;пробегом
+              </h3>
+              <p class="hero__card-descr">
+                Узнайте предварительную стоимость автомобиля за&nbsp;1&nbsp;мин,
+                указав его параметры
+              </p>
+              <button class="hero__card-btn btn-reset">Оценить</button>
+
+              <div class="hero__card-img4">
+                <img src="./images/bg4.svg" alt="" class="hero__card-svg4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
